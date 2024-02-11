@@ -18,6 +18,12 @@ new_height = 300
 #resized Image is 
 resized_image = cv2.resize(image, (new_width,new_height))
 
+# Save resized Image
+# cv2.imwrite(" resized_image.jpg", resized_image)
+
+# Syntax
+# cv2.imwrite(" image_name.jpg or .png or .jpeg ..." ,  variable in which image stored)
+
 """
 We use the cv2.resize() function to resize the image.
 The first argument is the image we want to resize.
@@ -38,4 +44,3 @@ print("Resized Image displayed successfully")
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
