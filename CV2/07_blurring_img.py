@@ -3,7 +3,7 @@ import cv2
 image = cv2.imread("dhoni1.jpg")
 
 
-blurred_image = cv2.GaussianBlur(image,(15,15),10)
+blurred_image = cv2.GaussianBlur(image,(3,3),10)
 
 cv2.imshow("Original Image", image)
 cv2.imshow("Blurred Image", blurred_image)
@@ -16,6 +16,7 @@ cv2.GaussianBlur() Function:
 The cv2.GaussianBlur() function is used to apply Gaussian blur to an image.
 It convolves the image with a Gaussian kernel,
 which is a two-dimensional matrix representing a Gaussian distribution.
+
 """
 # blurred_image = cv2.GaussianBlur(src, ksize, sigmaX, sigmaY = 0, borderType = cv2.BORDER_DEFAULT)
 """

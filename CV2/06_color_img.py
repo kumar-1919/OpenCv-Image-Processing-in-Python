@@ -67,7 +67,7 @@ cv2.imshow("RGB Image",rgb_image)
 cv2.imshow("Gray Image",Gray_image)
 # Display HUE image
 cv2.imshow("HUE image",hue_image)
-# Display YUL Imae
+# Display YUV Imae
 cv2.imshow("YUV Image",yuv_image)
 
 # Closing The OpenCV windows

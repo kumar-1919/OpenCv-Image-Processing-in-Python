@@ -5,13 +5,13 @@ image = cv2.imread("dhoni1.jpg")
 
 cv2.imshow("Original Image", image)
 
-# Apply Laplacina filter for edge enhancement
+# Apply Laplacian filter for edge enhancement
 laplacian = cv2.Laplacian(image, cv2.CV_64F)
 
 cv2.imshow("Laplacian filter", laplacian)
 
 # Convert the resluts into uint8
-sharpend_image = np.uint8(np.clip(image - 0.5*laplacian, 0 ,255))
+sharpend_image = np.uint8(np.clip(image - 0.5 * laplacian, 0 ,255))
 
 #sharpend_image2 = np.uint8(np.clip(image - 0.9*laplacian, 0 ,255))
 #sharpend_image3 = np.uint8( np.clip( image - 0.9*laplacian, 0, 255))

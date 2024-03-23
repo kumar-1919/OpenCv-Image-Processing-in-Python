@@ -5,7 +5,7 @@ path = r"C:\Users\Saire\OneDrive\Pictures\Wallpaper\dhoni1.jpg"
 image = cv2.imread(path)
 
 # Apply bilateral filtering
-bilateral_filtered_image = cv2.bilateralFilter(image, 9, 75, 75)
+bilateral_filtered_image = cv2.bilateralFilter(image, 99, 99, 10)
 
 # Save the bilateral filtered image to your device
 #cv2.imwrite('dhoni1 Wallpaper.jpg', bilateral_filtered_image)
@@ -26,5 +26,9 @@ We display both the original image and the bilateral filtered image using cv2.im
 # Display the original and bilateral filtered images
 cv2.imshow('Original Image', image)
 cv2.imshow('Bilateral Filtered Image', bilateral_filtered_image)
+
+#cv2.imwrite("Bilateral.jpg",bilateral_filtered_image)
+
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
