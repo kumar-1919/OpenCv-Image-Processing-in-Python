@@ -11,7 +11,7 @@ Understand feature extraction and matching for image recognition
 Dive into video processing and analysis
 Implement real-world projects and applications using OpenCV in Python
 ## Instructor:
-This course is taught by Sai Prasanna Kumar Reddy through ChatGpt.
+This course is being instructed by Sai Prasanna Kumar Reddy through ChatGpt.
 ## Source : ChatGpt
 ChatGpt is an advanced AI language model developed by OpenAI. With ChatGPT as your guide, you'll gain practical insights and hands-on experience in coding with OpenCV in Python.
 
